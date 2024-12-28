@@ -13,9 +13,19 @@
     --foreground: #ededed;
   }
 }
-
 body {
+  background: linear-gradient(90deg, #020817, #020817, #020817);
+  color: #FFFFFF; /* Adjust text color for readability */
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Updated Register Section Gradient */
+.bg-gradient-to-r {
+  background: linear-gradient(to right, #1f242f, #2D3748, #2c323c);
+}
+/* body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */

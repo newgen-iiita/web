@@ -8,6 +8,7 @@ import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import ResponsiveAppBar from "@/components/appbar";
 import HomePage from "@/pages/HomePage"; // Import HomePage component
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,6 +25,7 @@ export default function Home() {
     <>
       <ResponsiveAppBar sx={{ backgroundColor: "transparent", boxShadow: "none" }} />
       <HomePage /> {/* Render HomePage content here */}
+      <Footer />
     </>
   );
 }
