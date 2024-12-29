@@ -21,7 +21,7 @@ export default function Page() {
 
             <h1 className="text-5xl font-bold lg:text-6xl">
               <div>The New</div>
-              <div className="text-cyan-400">Generation</div>
+              <span className='text-gradient'>Generation</span>
               <div>E-Cell</div>
             </h1>
 
